@@ -7,7 +7,7 @@
 /*page top*/
 
 section.top{
-    padding: 25px;
+    padding: 22px;
 }
 
 nav.top-menu{
@@ -85,4 +85,60 @@ svg:hover{
     color: rgb(20, 20, 20);
 }
 
-/***************************/
+a.image-fundo{
+    width: 100%;
+    height: 100%;
+
+    background-image: url("images/imagemmarcoscurriculo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/**************Main*************/
+
+main{
+    width: 100%;
+    height: 100%;
+
+    text-align: center;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+
+    padding: 120px 100px 10px 100px;
+
+    margin: 0 auto;
+
+    align-items: center;
+
+}
+
+img{
+    width: 272px;
+    height: 92px;
+
+    padding-bottom: 25px;
+
+}
+
+input[type="search"]{
+    width: 550px;
+    height: 44px;
+
+    box-sizing: content-box;
+    
+    padding-left: 50px;
+
+    border: 1px solid rgba(156, 156, 156, 0.411);
+    border-radius: 30px;
+    outline: none;
+
+
+}
+
+input[type="search"]:hover{
+    box-shadow: 1px 1px 4px 1px rgba(143, 143, 143, 0.342);
+}
