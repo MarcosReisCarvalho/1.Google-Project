@@ -142,3 +142,42 @@ input[type="search"]{
 input[type="search"]:hover{
     box-shadow: 1px 1px 4px 1px rgba(143, 143, 143, 0.342);
 }
+
+div.two-boxes{
+    display: flex;
+    flex-direction: row;
+
+    margin: 0 auto;
+    padding: 36px;
+
+    align-items: center;
+
+    font-size: 14px;
+    color: rgb(82, 81, 81);
+}
+
+span.box1{
+    cursor: pointer;
+
+    padding: 10px 16px ;
+    margin: 0px 6px 0px 6px;
+
+    border-radius: 2px;
+
+    background-color: #f8f9fa;
+
+    transition: 0.25s;
+}
+
+span.box1:hover{
+    box-shadow: 0.25px 0.5px 0.15px 1px rgba(128, 128, 128, 0.568);
+    
+}
+
+p.p1{
+    font-size: 13px;
+}
+
+a.sub-text-box{
+    color: #1a0dab;
+}
