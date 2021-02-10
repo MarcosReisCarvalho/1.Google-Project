@@ -126,7 +126,9 @@ main{
     display: flex;
     flex-direction: column;
 
-    padding: 120px 100px 10px 100px;
+    padding-top: 100px;
+
+    max-width: 500px;
 
     margin: 0 auto;
 
@@ -145,6 +147,8 @@ img{
 input[type="search"]{
     width: 550px;
     height: 44px;
+    max-width: 550px;
+    max-height: 44px;
 
     box-sizing: content-box;
     
